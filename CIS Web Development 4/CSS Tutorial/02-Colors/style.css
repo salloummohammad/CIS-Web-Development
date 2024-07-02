@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(28, 167, 251);
+}
+
+#p1{
+    color: rgb(211, 64, 172);
+}
+
+#p2{
+    color: #37b762;
+}
+
+#p3{
+    color: hsl(57, 80%, 52%);
+}
+

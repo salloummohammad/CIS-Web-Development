@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    background-color: gray;
+    height: 100vh;
+}
+.box{
+    border: 2px solid;
+    height: auto;
+    width: auto;
+
+    width: 25%;
+    float: left;
+    padding: 30px;
+    text-align: center;
+
+    max-width: 50%;
+}

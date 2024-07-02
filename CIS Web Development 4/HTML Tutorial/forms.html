@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Forms</h1>
+    <form action="">
+        <label for="first">First Name</label>
+        <input type="text" name="firstN" id="first" placeholder="Enter your first name">
+        <p>
+            <label for="last">Last Name</label>
+            <input type="text" name="lastN" id="last" placeholder="Enter your last name">
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="email" name="" id="email" placeholder="Enter your email">
+        </p>
+        <p>
+            <label for="password">Password</label>
+            <input type="password" name="" id="password" placeholder="At least 8 characters">
+        </p>
+        <p>
+            <label for="tel">Tel</label>
+            <input type="tel" name="" id="tel" placeholder="+(961)-12-345678" pattern="+([0-9]{3})-[0-9]{2}-[0-9]{6}">
+        </p>
+        <p>
+            <label for="date">Birth Date</label>
+            <input type="date" name="" id="date" placeholder="Enter a birth date">
+        </p>
+        <p>
+            <label for="number">Quantity</label>
+            <input type="number" name="" id="number" min="0" max="10">
+        </p>
+        <p>
+            <label for="color">Choose a color</label>
+            <input type="color" name="" id="color">
+        </p>
+        <p>
+            <input type="file" name="" id="file">
+        </p>
+        <p>
+            <label for="contact">Send a message</label>
+            <textarea name="" id="" cols="20" rows="5"></textarea>
+        </p>
+        <p>Choose your favorite
+            <select name="" id="" size="2" multiple>
+                <option value="cat">Cat</option>
+                <option value="dog">Dog</option>
+                <option value="horse" selected>Horse</option>
+            </select>
+        </p>
+        <p>
+            Choose your meal:
+            <input type="checkbox" name="ch1" id="">Breakfast
+            <input type="checkbox" name="ch2" id="">Lunch
+            <input type="checkbox" name="ch3" id="">Dinner
+        </p>
+
+        <p>
+            Gender:
+            <input type="radio" name="r">Male
+            <input type="radio" name="r">Female
+
+        </p>
+        <p>
+            <input type="submit" name="" id="">
+            <input type="reset">
+        </p>
+    </form>
+</body>
+
+</html>

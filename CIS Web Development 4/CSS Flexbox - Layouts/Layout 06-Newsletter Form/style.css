@@ -1,0 +1,30 @@
+form{
+    width: 50%;
+    border: 3px solid lawngreen;
+    display: flex;
+}
+
+input{
+    border: none;
+    background: none;
+    outline: none;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+}
+
+input[type="email"]{
+    border: 1px solid lightcoral;
+    flex-grow: 1;
+
+}
+
+input[type="email"]::placeholder{
+    color: lightcoral;
+}
+
+input[type="submit"]{
+    background-color: lightcoral;
+    color: white;
+    cursor: pointer;
+    flex-grow: 1;
+}

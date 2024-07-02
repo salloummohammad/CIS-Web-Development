@@ -1,0 +1,25 @@
+header{
+    background-color: #2e0249;
+}
+
+section{
+    background-color: #a91079;
+}
+
+footer{
+    background-color: #570a57;
+}
+
+header, section, footer{
+    color: white;
+    font-size: 2rem;
+    padding: 2rem;
+    text-align: center;
+    vertical-align: center;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}

@@ -1,0 +1,39 @@
+section{
+    width: 30rem;
+    margin: auto;
+    margin-top: 2rem;
+
+    text-align: center;
+    background-color: #764af1;
+    padding: 1.5rem 3rem;
+    border-radius: 1rem;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+div{
+    display: flex;
+    gap: 0 1rem;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+
+    width: 50%;
+}
+
+a:first-child{
+    background-color: #9772fb;
+    color: white;
+}
+
+a:last-child{
+    background-color: white;
+    color: #764af1;
+}

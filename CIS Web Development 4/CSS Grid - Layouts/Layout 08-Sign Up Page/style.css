@@ -1,0 +1,99 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "logo m-title"
+    "desc title"
+    "img email"
+    "img pass"
+    "img submit"
+    "img google"
+    "img sign-in";
+
+    gap: 2rem 3rem;
+    place-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+.logo {
+    grid-area: logo;
+    justify-self: center;
+}
+
+.logo img{
+    height: 3rem;
+}
+.description {
+    grid-area: desc;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.sign-up-img {
+    grid-area: img;
+}
+
+.sign-up-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.mini-title {
+    grid-area: m-title;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.6);
+}
+.title {
+    grid-area: title;
+    font-size: 3rem;
+}
+
+.email-fieldset, .password-fieldset{
+    border: none;
+    font-size: 1.5rem;
+    display: grid;
+    gap: 1rem;
+}
+.email-fieldset {
+    grid-area: email;
+}
+.password-fieldset {
+    grid-area: pass;
+}
+.google-sign-up {
+    grid-area: google;
+
+    background-color: #dbdffd;
+    padding: 1.5rem 2.5rem;
+    border-radius: 1rem;
+    color: #242f9b;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.sign-in {
+    grid-area: sign-in;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+input[type="submit"]{
+    grid-area: submit;
+
+    background-color: #242f9b;
+    color: white;
+    cursor: pointer;
+}
+
+input{
+    border: none;
+    outline: none;
+    background-color: none;
+
+    font-size: 1.6rem;
+    padding: 1.5rem 2.5rem;
+    border-radius: 1rem;
+}
+
+input[type="email"], input[type="password"]{
+    border: 1px solid lightgrey;
+}

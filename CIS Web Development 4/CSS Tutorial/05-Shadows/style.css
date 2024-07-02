@@ -1,0 +1,19 @@
+h1{
+    text-shadow: 2px 3px 5px red;
+    /* 2px: horizontal shadow
+       3px: Vertical shadow
+       5px: Bluring
+     */
+}
+
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(177, 114, 235);
+    box-shadow: 2px 4px 5px 7px yellowgreen;
+        /* 2px: horizontal shadow
+       4px: Vertical shadow
+       5px: Bluring
+       7px: Spread
+     */
+}

@@ -1,0 +1,54 @@
+header{
+    background-color: #827397;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
+h3{
+    color: white;
+    font-size: 2rem;
+}
+
+nav{
+    display: flex;
+    gap: 2rem;
+    flex-basis: 33.33%;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+
+    flex-grow: 1;
+}
+
+input{
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    background: none;
+    outline: none;
+    background-color: #e9d5da;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 800px) {
+    header{
+        flex-wrap: wrap;
+    }
+
+    nav{
+        order: 1;
+        flex-basis: 100%;
+    }
+
+}
