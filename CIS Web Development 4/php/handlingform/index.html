@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>handling form</title>
+</head>
+<body>
+    <form action="process.php" method="post">
+        <fieldset>
+            <legend> Product info</legend>
+            <p>Product name: <input type="text" name="pname"></p>
+            <p>unit Price: <input type="text" name="price"></p>
+            <p>Quantity: <input type="number" min="0" max="5" value="0" name="pty"></p>
+            <p>choos a color: <select name="color">
+                <option value="red">red</option>
+                <option value="blue">blue</option>
+                <option value="black">black</option>
+            </select></p>
+            <input type="submit" value="submit">
+        </fieldset>
+    </form>
+</body>
+</html>
