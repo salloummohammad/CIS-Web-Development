@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign UP</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
+</head>
+<body>
+    <h1>Sign Up</h1>
+    <form action="process.php" method="POST" novalidate>
+        <!-- l Id bi3ed la7alo l2n AI auto-increment -->
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <!-- el id bl input lezem tkun heye zeta l for li bl label -->
+        </div>
+        <div>
+            <label for="pass">Password</label>
+            <input type="password" name="password" id="pass">
+        </div>
+        <div>
+            <label for="password_confirmation">Repeat Password</label>
+            <input type="password" name="password_confirmation" id="confirmation_password">
+            <!-- l name howe li bade esta3mlo bl php wel id lezem tkun nafs l for -->
+        </div>
+        <input type="submit" name="submit" value="Sign Up">
+    </form>
+</body>
+</html>
